@@ -1,4 +1,4 @@
-//ex_1_4
+package Module1.Module1_1;//ex_1_4
 
 public class Ex_1_1_4 {
     private String name;
