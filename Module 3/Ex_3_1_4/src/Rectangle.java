@@ -1,7 +1,7 @@
 public class Rectangle extends Shape{
 
-    Rectangle(double l1, double l2){
-        super(l1,l2);
+    Rectangle(double l1, double l2, String color){
+        super(l1, l2, color);
 
     }
 
