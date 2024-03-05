@@ -1,15 +1,17 @@
 package view;
 
+import controller.CConversionController2;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+
 import java.io.IOException;
 
 
-public class NoteView extends Application {
+public class CcView extends Application {
 
     private Stage primaryStage;
     private BorderPane root;
@@ -18,7 +20,7 @@ public class NoteView extends Application {
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("Notebook");
+        this.primaryStage.setTitle("Converter 2.0");
 
         initRootLayout();
 
@@ -30,8 +32,15 @@ public class NoteView extends Application {
     public void initRootLayout() {
         try {
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/scene.fxml"));
+
+
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/controller/sceneCC.fxml"));
+
             root = fxmlLoader.load();
+            CConversionController2 controller = fxmlLoader.getController();
+            System.out.println(controller);
+            controller.setMainApp();
 
             // Show the scene containing the root layout.
             Scene scene = new Scene(root);
@@ -42,7 +51,6 @@ public class NoteView extends Application {
             e.printStackTrace();
         }
     }
-    public static void main(String[] args) {
-        launch(args);
-    }
+
+
 }
