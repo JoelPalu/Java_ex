@@ -30,7 +30,7 @@ public class NoteView extends Application {
     public void initRootLayout() {
         try {
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/scene.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/controller/scene.fxml"));
             root = fxmlLoader.load();
 
             // Show the scene containing the root layout.
