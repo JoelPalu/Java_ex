@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="253.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CConversionController2">
+<BorderPane prefHeight="253.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CConversionController3">
    <center>
       <AnchorPane prefHeight="223.0" prefWidth="451.0">
          <children>
