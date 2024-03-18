@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Ex_7_3_1" />
         <module name="Ex_7_4_1" />
+        <module name="Ex_8_1_1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Java_ex" target="17" />
+      <module name="Module 8" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
